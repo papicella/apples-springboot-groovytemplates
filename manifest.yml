@@ -1,0 +1,8 @@
+applications:
+- name: pas-springboot-groovytemplates
+  memory: 512M
+  instances: 1
+  host: pas-springboot-groovytemplates
+  domain: mybluemix.net
+  #buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  path: ./build/libs/boot-templates-1.0.0.jar
